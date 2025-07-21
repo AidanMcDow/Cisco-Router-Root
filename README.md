@@ -1,6 +1,6 @@
 # Cisco-Router-Root
 
-This project is a personal project a friend and I worked on in order to practice some hardware hacking skills. This repo shows the process we went through in order to gain root access to a Cisco Linksys E1200 router.
+# This project is a personal project a friend and I worked on in order to practice some hardware hacking skills. This repo shows the process we went through in order to gain root access to a Cisco Linksys E1200 router.
 
 1. Physical Inspection
 
