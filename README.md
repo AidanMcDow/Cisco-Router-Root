@@ -9,8 +9,9 @@ Knowing what a serial connection generally looks like, this is always the go to 
 After opening up the chasis there seems to be really only one area that has potential to give us a serial connection. In any serial connection you are going to see at least 4 connections, these include positive (usually 3.3 volts), ground, tx (transmit) and rx (recieve).
 In this case we actually see 5 total points, the 5th actually being a signal ground. This 5th pin is not important for what we are trying to do so we can ignore that connection for now.
 
-Using a multimeter you can help confirm that the port in question is a serial port by checking for voltage. With the device plugged in we test to see if the contact point is producing 3.3 volts. We also test for the 2 grounded out contacts.
+<img width="805" height="804" alt="image" src="https://github.com/user-attachments/assets/b070e2cc-f64e-43e7-a5ef-0db8de6ea8e4" />
 
+Using a multimeter you can help confirm that the port in question is a serial port by checking for voltage. With the device plugged in we test to see if the contact point is producing 3.3 volts. We also test for the 2 grounded out contacts.
 Confirming this increases the chances that what we are looking at, is in fact a serial port. From here we are going to want to confirm what the other 2 connecitons are for. This is where signal analysis comes into play.
 
 2. Signal Analysis
@@ -28,5 +29,11 @@ Here we have 3 changes happen when the router is booted up. The top and bottom a
 Now we connect everything together using the flipper zero. The flipper has GPIO pins on top and an app that creates a bridge between UART to USB. Connecting it all together we create a usb connection to our serial port on the router.
 
 ![PXL_20250721_225140893 MP](https://github.com/user-attachments/assets/2e8a7982-a86b-48b1-96d9-71629db1c7b5)
+
+Using screen on linux we can open a shell on the device. After running sudo screen /dev/ttyACM0 115200 we get a confirmation that we have connected to the light version of linux running on the router called busybox.
+![PXL_20250721_232437528](https://github.com/user-attachments/assets/10dfca7d-4963-46f4-bbd7-146563eb9699)
+
+We now have a root access terminal for the router!
+
 
 
