@@ -19,16 +19,14 @@ As college students, an osciliscope is much too far outside our budget. However 
 
 Connecting all of the contact points and booting up our free trial of logic 2 https://www.saleae.com/pages/downloads?srsltid=AfmBOopJTOCU2PV-4VGmJqXqi1jdSgK0Wkg6Ljopl69zwo3XhFBhTruT we see.
 
-Tracing back these connections we can see that one is sending out data. This pin is going to be our tx pin, and the only other pin left will in turn be our rx connection. 
+<img width="1699" height="893" alt="image" src="https://github.com/user-attachments/assets/a9edfce0-1884-47d0-bab4-ad592254e5db" />
 
-Bridge Connection
+Here we have 3 changes happen when the router is booted up. The top and bottom are going to be our power. The yellow connection however seems to be transmitting data, this confirms which conneciton is our tx. Through process of elimination we also now know our rx.
 
-Connected Flipper Zero to the UART header (TX/RX/GND only, avoiding VCC).
+3. Bridge Connection
 
-Connected Flipper to a computer as a USB serial interface.
+Now we connect everything together using the flipper zero. The flipper has GPIO pins on top and an app that creates a bridge between UART to USB. Connecting it all together we create a usb connection to our serial port on the router.
 
-Accessing the Interface
+![PXL_20250721_225140893 MP](https://github.com/user-attachments/assets/2e8a7982-a86b-48b1-96d9-71629db1c7b5)
 
-Used screen on Linux to connect to the serial port (e.g., screen /dev/ttyACM0 115200).
 
-Sent ? to the interface, which triggered a debug or diagnostic shell.
