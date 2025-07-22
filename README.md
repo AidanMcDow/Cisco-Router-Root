@@ -9,7 +9,7 @@ Knowing what a serial connection generally looks like, this is always the go to 
 After opening up the chasis there seems to be really only one area that has potential to give us a serial connection. In any serial connection you are going to see at least 4 connections, these include positive (usually 3.3 volts), ground, tx (transmit) and rx (recieve).
 In this case we actually see 5 total points, the 5th actually being a signal ground. This 5th pin is not important for what we are trying to do so we can ignore that connection for now.
 
-<img width="805" height="804" alt="image" src="https://github.com/user-attachments/assets/b070e2cc-f64e-43e7-a5ef-0db8de6ea8e4" />
+<img width="565" height="568" alt="image" src="https://github.com/user-attachments/assets/fb14b5cb-4fd0-4d57-94af-af53a30429c8" />
 
 Using a multimeter you can help confirm that the port in question is a serial port by checking for voltage. With the device plugged in we test to see if the contact point is producing 3.3 volts. We also test for the 2 grounded out contacts.
 Confirming this increases the chances that what we are looking at, is in fact a serial port. From here we are going to want to confirm what the other 2 connecitons are for. This is where signal analysis comes into play.
