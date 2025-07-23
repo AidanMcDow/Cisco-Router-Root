@@ -31,7 +31,8 @@ Now we connect everything together using the flipper zero. The flipper has GPIO 
 ![PXL_20250721_225140893 MP](https://github.com/user-attachments/assets/2e8a7982-a86b-48b1-96d9-71629db1c7b5)
 
 Using screen on linux we can open a shell on the device. After running sudo screen /dev/ttyACM0 115200 we get a confirmation that we have connected to the light version of linux running on the router called busybox.
-![PXL_20250721_232437528](https://github.com/user-attachments/assets/10dfca7d-4963-46f4-bbd7-146563eb9699)
+![PXL_20250721_232437528](https://github.com/user-attachments/assets/d20054c1-750a-4fa2-ad77-75b493adc26c)
+
 
 We now have a root access terminal for the router!
 
