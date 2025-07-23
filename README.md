@@ -18,6 +18,9 @@ Confirming this increases the chances that what we are looking at, is in fact a 
 
 As college students, an osciliscope is much too far outside our budget. However you can find a cheap logic analyzer on amazon that will do exactly what we need it to.
 
+<img width="1157" height="474" alt="image" src="https://github.com/user-attachments/assets/6b9d32b7-0a29-4d83-b154-6bddcb84123d" />
+
+
 Connecting all of the contact points and booting up our free trial of logic 2 https://www.saleae.com/pages/downloads?srsltid=AfmBOopJTOCU2PV-4VGmJqXqi1jdSgK0Wkg6Ljopl69zwo3XhFBhTruT we see.
 
 <img width="1699" height="893" alt="image" src="https://github.com/user-attachments/assets/a9edfce0-1884-47d0-bab4-ad592254e5db" />
