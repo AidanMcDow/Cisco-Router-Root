@@ -6,7 +6,7 @@ This repo shows the process we went through in order to gain root access to a Ci
 ### 1. Physical Inspection
 
 Knowing what a serial connection generally looks like, this is always the go to first step for me.
-After opening up the chasis there seems to be really only one area that has potential to give us a serial connection. In any serial connection you are going to see at least 4 connections, these include positive (usually 3.3 volts), ground, tx (transmit) and rx (recieve).
+After opening up the chassis there seems to be really only one area that has potential to give us a serial connection. In any serial connection you are going to see at least 4 connections, these include positive (usually 3.3 volts), ground, tx (transmit) and rx (receive).
 In this case we actually see 5 total points, the 5th actually being a signal ground. This 5th pin is not important for what we are trying to do so we can ignore that connection for now.
 
 <img width="565" height="568" alt="image" src="https://github.com/user-attachments/assets/fb14b5cb-4fd0-4d57-94af-af53a30429c8" />
@@ -16,7 +16,7 @@ Confirming this increases the chances that what we are looking at, is in fact a 
 
 ### 2. Signal Analysis
 
-As college students, an osciliscope is much too far outside our budget. However you can find a cheap logic analyzer on amazon that will do exactly what we need it to.
+As college students, an oscilloscope is much too far outside our budget. However you can find a cheap logic analyzer on amazon that will do exactly what we need it to.
 
 <img width="1157" height="474" alt="image" src="https://github.com/user-attachments/assets/6b9d32b7-0a29-4d83-b154-6bddcb84123d" />
 
